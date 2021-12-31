@@ -7,4 +7,5 @@ def main(a,b):
     Returns:
         True if each of the numbers 'a' and 'b' is negative, False otherwise
     """
-    return
+    return a < b < 0
+print(main(2,-5))
