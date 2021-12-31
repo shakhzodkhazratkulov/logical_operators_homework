@@ -8,4 +8,5 @@ def main(a,b,c):
     Returns:
         True if b is between a and c, False otherwise
     """
-    return
+    return a < b < c
+print(main(1,2,3))
