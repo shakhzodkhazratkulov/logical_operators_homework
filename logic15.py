@@ -6,4 +6,5 @@ def main(a):
     Returns:
         True if all digits sum is odd, False otherwise
     """
-    return
+    return (a % 10 + a // 10 + a // 100) % 2 == 1
+print(main(333))
