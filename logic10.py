@@ -6,4 +6,5 @@ def main(a):
     Returns:
         True if a is two-digit number, False otherwise
     """
-    return
+    return 9 < a < 100
+print(main(26))
